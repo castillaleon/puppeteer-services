@@ -42,7 +42,7 @@ const page_list = [
       }
     });
 
-    let index = (new Date().getHours() + 1) / 2;
+    let index = Math.floor((new Date().getHours() + 1) / 2);
     let max_index = _.size(devices);
     let device_options = max_index > index ? devices[index] : _.sample(devices);
     await page.emulate(device_options);
@@ -69,6 +69,7 @@ const page_list = [
           "Cookie": _.map(cookies, (cookie) => {
             return `${cookie.name}=${cookie.value};`;
           }).join(""),
+          url: targetUrl,
           "User-Agent": device_options.userAgent,
         },
         null,
