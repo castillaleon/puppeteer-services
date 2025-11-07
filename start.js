@@ -62,12 +62,15 @@ const page_list = [
     // （可选）5. 将Cookies保存为JSON文件
     // const fs = require("fs");
 
-   await fs.writeFile(
+    await fs.writeFile(
       `cookies_${index}.json`,
       JSON.stringify(
-        _.map(cookies, (cookie) => {
-          return `${cookie.name}=${cookie.value};`;
-        }).join(""),
+        {
+          "Cookie": _.map(cookies, (cookie) => {
+            return `${cookie.name}=${cookie.value};`;
+          }).join(""),
+          "User-Agent": device_options.userAgent,
+        },
         null,
         2
       )
