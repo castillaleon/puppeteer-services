@@ -23,7 +23,7 @@ const page_list = [
   try {
     // 2. 创建一个新的页面标签页
     const page = await browser.newPage();
-    let index = new Date().getHours() / 2;
+    let index = (new Date().getHours()+1) / 2;
     let max_index = _.size(devices);
     let device_options = max_index > index ? devices[index] : _.sample(devices);
     await page.emulate(device_options);
