@@ -2,8 +2,7 @@ import puppeteer from "puppeteer";
 import fs from "fs/promises";
 // import devices from "./device-descriptors.json"; // 引入设备描述符
 import _ from "lodash";
-const page_list = [
-  // "https://emrnweb.eastmoney.com/nxfxb/home",
+const page_list = [ 
   "https://wap.eastmoney.com/quote/stock/1.000001.html?appfenxiang=1",
   "https://wap.eastmoney.com/quote/stock/0.399001.html?appfenxiang=1",
   "https://wap.eastmoney.com/quote/stock/0.399006.html?appfenxiang=1",
@@ -15,10 +14,8 @@ const page_list = [
   "https://emdata.eastmoney.com/home/indexh5.html",
   "https://wap.eastmoney.com/quote/hsbk.html",
   "https://emwap.eastmoney.com/quota/hq/global",
-  "https://quote.eastmoney.com/center/",
-  "https://emdata.eastmoney.com/appdc/lhb/index.html#/lhb",
-  // "https://emrnweb.eastmoney.com/rzrq/Home",
-  // "https://emrnweb.eastmoney.com/zljc/list?type=0",
+  // "https://quote.eastmoney.com/center/",
+  "https://emdata.eastmoney.com/appdc/lhb/index.html#/lhb", 
 ];
 (async () => {
   const file = await fs.readFile("./device-descriptors.json", "utf8");
