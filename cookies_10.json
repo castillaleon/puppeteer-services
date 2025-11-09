@@ -1,5 +1,5 @@
 {
-  "Cookie": "st_psi=20251107205914194-113807304294-6330806525;st_asi=delete;st_inirUrl=;st_sn=1;st_pvi=09946002395352;st_si=41468913688394;st_sp=2025-11-07%2020%3A59%3A15;qgqp_b_id=1f3f7f9dad3e8175c9c506705ac40e7e;",
-  "url": "https://wap.eastmoney.com/quote/stock/1.000001.html?appfenxiang=1",
+  "Cookie": "st_psi=20251108205934591-113200301321-7106616542;st_asi=delete;st_inirUrl=https%3A%2F%2Femwap.eastmoney.com%2Fquote%2Fglobal.html;st_sp=2025-11-08%2020%3A59%3A34;st_sn=1;fullscreengg=1;st_pvi=27980998064517;st_si=98242618641591;fullscreengg2=1;qgqp_b_id=1f3f7f9dad3e8175c9c506705ac40e7e;",
+  "url": "https://emwap.eastmoney.com/quota/hq/global",
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.49 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI WindowsWechat"
 }

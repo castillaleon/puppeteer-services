@@ -1,5 +1,5 @@
 {
-  "Cookie": "",
-  "url": "https://emrnweb.eastmoney.com/zljc/list?type=0",
+  "Cookie": "st_psi=20251109025906529-113807304294-1312827474;st_asi=delete;st_inirUrl=;st_sn=1;st_pvi=06075592312523;st_si=81368204274677;st_sp=2025-11-09%2002%3A59%3A07;qgqp_b_id=af991df734257d20bfd9fe5a6ce0d911;",
+  "url": "https://wap.eastmoney.com/quote/stock/0.399001.html?appfenxiang=1",
   "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.40(0x180028) NetType/4G Language/zh_CN"
 }
