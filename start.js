@@ -70,7 +70,7 @@ const page_list = [
         {
           "Cookie": _.map(cookies, (cookie) => {
             return `${cookie.name}=${cookie.value};`;
-          }).join(""),
+          }).join(" ")+"wsc_checkuser_ok=1; ",
           url: targetUrl,
           "User-Agent": device_options.userAgent,
         },
